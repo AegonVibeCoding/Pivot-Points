@@ -2,9 +2,9 @@
 
 ATAS 主图枢轴点指标，图表中的名称为 **Pivot Points**。根据上一个参考周期的高、低、收盘等价格，计算本周期的 P、R1、R2、R3、S1、S2、S3。
 
-本仓库于 2026-11-12 从现有指标中单独摘出，生产源码保持原样。
+本仓库于 2026-11-12 从现有指标中单独摘出。源码和程序集统一采用 `PivotPoints` 命名，计算公式保持不变。
 
-已编译的 Windows DLL：[下载 Jin10PivotIndicator.dll](https://github.com/AegonVibeCoding/Pivot-Points/releases/download/v2026.11.12.1/Jin10PivotIndicator.dll)。也可在 [Releases](https://github.com/AegonVibeCoding/Pivot-Points/releases/tag/v2026.11.12.1) 查看版本说明和 SHA256 校验文件。
+已编译的 Windows DLL：[下载 PivotPoints.dll](https://github.com/AegonVibeCoding/Pivot-Points/releases/download/v2026.11.12.2/PivotPoints.dll)。也可在 [Releases](https://github.com/AegonVibeCoding/Pivot-Points/releases/tag/v2026.11.12.2) 查看版本说明和 SHA256 校验文件。
 
 ## 从哪里开始
 
@@ -31,7 +31,7 @@ ATAS 主图枢轴点指标，图表中的名称为 **Pivot Points**。根据上�
 ## 目录
 
 ```text
-src/PivotPoints/        原指标源码和项目文件
+src/PivotPoints/        指标源码和项目文件
 tests/PivotMath.Check/  不依赖 ATAS 的公式自检
 docs/                  中文算法与使用文档
 artifacts/             从当前独立源码编译的指标 DLL 及 SHA256

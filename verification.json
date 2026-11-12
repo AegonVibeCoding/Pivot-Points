@@ -1,19 +1,21 @@
 {
-  "snapshot": "current-snapshot-2026-11-12",
+  "snapshot": "v2026.11.12.2",
   "indicatorDisplayName": "Pivot Points",
-  "productionSourceChanged": false,
-  "sourceCopies": {
-    "src/PivotPoints/PivotMath.cs": "689c6c424b443fefb7d7f0f607e96a8ba0cff85cdd43cd65115c6668c1e76efa",
-    "src/PivotPoints/Jin10PivotIndicator.cs": "4fa19df53609331b9aad7df76483dedd33e4d411e97c52fc8e2b1bc26810cae9",
-    "src/PivotPoints/Jin10PivotIndicator.csproj": "24a77932dd1f9a24ff1f6c1849d952e38677c96ff4930392d0af047210586821"
+  "assemblyName": "PivotPoints",
+  "namespace": "PivotPoints",
+  "indicatorClass": "PivotPointsIndicator",
+  "formulaLogicChanged": false,
+  "namingChanged": true,
+  "sourceSha256": {
+    "src/PivotPoints/PivotMath.cs": "d59fe70064614fcb7c2560269098a26c9d134de55733a78ca300a9e5e74614f4",
+    "src/PivotPoints/PivotPointsIndicator.cs": "eb56c7956eecd29f8d1a754bbc553595b70ce2150a6e0995fec8c48b42621b4e",
+    "src/PivotPoints/PivotPoints.csproj": "642db48f84ab45c13784f91bf995a337b289c9ca0d3d3670a6b4290169cdfcd5"
   },
-  "installedDllAtExtractionSha256": "24c59652c15b3817c02d7bb903fcd6a9ddf8043969432c11e241b055c666033c",
-  "compiledDllSha256": "be0c1387686ab0095182d856ce860863e656cde65e79ae63ed25684de34e2742",
-  "releaseTag": "v2026.11.12.1",
-  "originalReleaseDllMatchesInstalled": true,
+  "compiledDllSha256": "185307d8d1f5d2634c46bfaee2178895aff3d81ad9a0ec83d51d888ad0fd1fc7",
+  "releaseTag": "v2026.11.12.2",
   "sdk": "10.0.302",
   "build": {
-    "command": "dotnet build src/PivotPoints/Jin10PivotIndicator.csproj -c Release -t:Rebuild",
+    "command": "dotnet build src/PivotPoints/PivotPoints.csproj -c Release -t:Rebuild",
     "targetFramework": "net10.0-windows",
     "exitCode": 0,
     "warnings": 0,

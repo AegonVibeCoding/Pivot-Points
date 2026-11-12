@@ -7,7 +7,7 @@ using System.Drawing;
 using ATAS.Indicators;
 using ATAS.Indicators.Drawing;
 
-namespace Jin10Pivot;
+namespace PivotPoints;
 
 public enum PivotPeriod
 {
@@ -47,7 +47,7 @@ public enum PivotPeriod
 
 [DisplayName("Pivot Points")]
 [Display(Description = "Classic, Woodie, Fibonacci and Camarilla pivot levels calculated from the previous completed period.")]
-public sealed class Jin10PivotIndicator : Indicator
+public sealed class PivotPointsIndicator : Indicator
 {
     private static readonly PivotMethod[] IndividualMethods =
     [
@@ -110,7 +110,7 @@ public sealed class Jin10PivotIndicator : Indicator
     }
 
     [OFT.Attributes.Parameter]
-    [Display(Name = "伍迪加权价", GroupName = "计算", Description = "金十对照样本采用“上一周期收盘”。", Order = 30)]
+    [Display(Name = "伍迪加权价", GroupName = "计算", Description = "选择上一周期收盘或当前周期开盘作为加权价。", Order = 30)]
     public WoodiePriceMode WoodieMode
     {
         get => _woodiePriceMode;
@@ -166,7 +166,7 @@ public sealed class Jin10PivotIndicator : Indicator
         }
     }
 
-    public Jin10PivotIndicator()
+    public PivotPointsIndicator()
     {
         Panel = IndicatorDataProvider.CandlesPanel;
         DenyToChangePanel = true;

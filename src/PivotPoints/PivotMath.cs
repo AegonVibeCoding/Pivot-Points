@@ -1,7 +1,7 @@
 using System;
 using System.ComponentModel.DataAnnotations;
 
-namespace Jin10Pivot;
+namespace PivotPoints;
 
 public enum PivotMethod
 {
@@ -61,7 +61,7 @@ public static class PivotMath
         };
     }
 
-    // This is the formula used by the “经典” column in the checked Jin10 sample.
+    // Traditional pivot formula, displayed as “经典” in the indicator.
     public static PivotLevels Classic(PivotOhlc value)
     {
         var p = (value.High + value.Low + value.Close) / 3m;

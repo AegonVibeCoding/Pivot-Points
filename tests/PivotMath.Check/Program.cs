@@ -1,4 +1,4 @@
-using Jin10Pivot;
+using PivotPoints;
 
 var checks = 0;
 void Equal(string name, PivotLevels actual, PivotLevels expected)

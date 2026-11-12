@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <RootNamespace>Jin10Pivot</RootNamespace>
-    <AssemblyName>Jin10PivotIndicator</AssemblyName>
+    <RootNamespace>PivotPoints</RootNamespace>
+    <AssemblyName>PivotPoints</AssemblyName>
     <LangVersion>latest</LangVersion>
     <Nullable>enable</Nullable>
     <Platforms>AnyCPU;Cross</Platforms>
