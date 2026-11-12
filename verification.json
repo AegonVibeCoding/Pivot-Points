@@ -1,0 +1,29 @@
+{
+  "snapshot": "current-snapshot-2026-11-12",
+  "indicatorDisplayName": "Pivot Points",
+  "productionSourceChanged": false,
+  "sourceCopies": {
+    "src/PivotPoints/PivotMath.cs": "689c6c424b443fefb7d7f0f607e96a8ba0cff85cdd43cd65115c6668c1e76efa",
+    "src/PivotPoints/Jin10PivotIndicator.cs": "4fa19df53609331b9aad7df76483dedd33e4d411e97c52fc8e2b1bc26810cae9",
+    "src/PivotPoints/Jin10PivotIndicator.csproj": "24a77932dd1f9a24ff1f6c1849d952e38677c96ff4930392d0af047210586821"
+  },
+  "installedAndArchivedDllSha256": "24c59652c15b3817c02d7bb903fcd6a9ddf8043969432c11e241b055c666033c",
+  "originalReleaseDllMatchesInstalled": true,
+  "sdk": "10.0.302",
+  "build": {
+    "command": "dotnet build src/PivotPoints/Jin10PivotIndicator.csproj -c Release",
+    "targetFramework": "net10.0-windows",
+    "exitCode": 0,
+    "warnings": 0,
+    "errors": 0
+  },
+  "formulaChecks": {
+    "command": "dotnet run --project tests/PivotMath.Check/PivotMath.Check.csproj -c Release",
+    "passed": 17,
+    "failed": 0
+  },
+  "atasRestarted": false,
+  "installedDllModified": false,
+  "liveChartVerifiedInThisTask": false,
+  "atasXVerifiedInThisTask": false
+}
