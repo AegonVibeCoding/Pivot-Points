@@ -2,7 +2,7 @@
 
 ATAS 主图枢轴点指标，图表中的名称为 **Pivot Points**。根据上一个参考周期的高、低、收盘等价格，计算本周期的 P、R1、R2、R3、S1、S2、S3。
 
-本仓库于 2026-11-12 从现有指标中单独摘出。生产源码保持原样；不是后续的 `Pivot Heatmap Experimental` 热区指标。
+本仓库于 2026-11-12 从现有指标中单独摘出，生产源码保持原样。
 
 已编译的 Windows DLL：[下载 Jin10PivotIndicator.dll](https://github.com/AegonVibeCoding/Pivot-Points/releases/download/v2026.11.12.1/Jin10PivotIndicator.dll)。也可在 [Releases](https://github.com/AegonVibeCoding/Pivot-Points/releases/tag/v2026.11.12.1) 查看版本说明和 SHA256 校验文件。
 
@@ -26,7 +26,7 @@ ATAS 主图枢轴点指标，图表中的名称为 **Pivot Points**。根据上�
 
 首次观察建议在 5 分钟时间图中，选择“经典 / 日 / 周期起点小时 0”，先识别七条线，再切换“全部”。需要加载前一参考周期及当前周期的数据；第一段历史可能不完整，详细处理见算法说明。
 
-“全部”包含 28 条计算序列；相同价位会重合。当前版本显示水平线，不合并成支撑阻力区域，也不显示热度。
+“全部”包含 28 条计算序列，以水平线显示；相同价位会重合。
 
 ## 目录
 
