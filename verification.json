@@ -7,11 +7,13 @@
     "src/PivotPoints/Jin10PivotIndicator.cs": "4fa19df53609331b9aad7df76483dedd33e4d411e97c52fc8e2b1bc26810cae9",
     "src/PivotPoints/Jin10PivotIndicator.csproj": "24a77932dd1f9a24ff1f6c1849d952e38677c96ff4930392d0af047210586821"
   },
-  "installedAndArchivedDllSha256": "24c59652c15b3817c02d7bb903fcd6a9ddf8043969432c11e241b055c666033c",
+  "installedDllAtExtractionSha256": "24c59652c15b3817c02d7bb903fcd6a9ddf8043969432c11e241b055c666033c",
+  "compiledDllSha256": "be0c1387686ab0095182d856ce860863e656cde65e79ae63ed25684de34e2742",
+  "releaseTag": "v2026.11.12.1",
   "originalReleaseDllMatchesInstalled": true,
   "sdk": "10.0.302",
   "build": {
-    "command": "dotnet build src/PivotPoints/Jin10PivotIndicator.csproj -c Release",
+    "command": "dotnet build src/PivotPoints/Jin10PivotIndicator.csproj -c Release -t:Rebuild",
     "targetFramework": "net10.0-windows",
     "exitCode": 0,
     "warnings": 0,

@@ -4,6 +4,8 @@ ATAS 主图枢轴点指标，图表中的名称为 **Pivot Points**。根据上�
 
 本仓库于 2026-11-12 从现有指标中单独摘出。生产源码保持原样；不是后续的 `Pivot Heatmap Experimental` 热区指标。
 
+已编译的 Windows DLL：[下载 Jin10PivotIndicator.dll](https://github.com/AegonVibeCoding/Pivot-Points/releases/download/v2026.11.12.1/Jin10PivotIndicator.dll)。也可在 [Releases](https://github.com/AegonVibeCoding/Pivot-Points/releases/tag/v2026.11.12.1) 查看版本说明和 SHA256 校验文件。
+
 ## 从哪里开始
 
 - [指标使用说明](docs/使用说明.md)：安装、看图、设置参数、常见问题。
@@ -32,7 +34,7 @@ ATAS 主图枢轴点指标，图表中的名称为 **Pivot Points**。根据上�
 src/PivotPoints/        原指标源码和项目文件
 tests/PivotMath.Check/  不依赖 ATAS 的公式自检
 docs/                  中文算法与使用文档
-artifacts/             摘出时已安装的指标 DLL 及 SHA256
+artifacts/             从当前独立源码编译的指标 DLL 及 SHA256
 .github/workflows/     纯公式自动检查
 ```
 
